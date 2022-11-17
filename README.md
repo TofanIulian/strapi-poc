@@ -40,6 +40,12 @@ netstat -ano | findstr :1337 (or whatever port you are using)
 
 taskkill /PID <PID> /F
 
+### `debug db`
+
+All the data si stored in a SQLite database in the .tmp folder
+
+Download [SQLite vscode extension](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) in order to visualize/query the db
+
 ## ⚙️ Deployment
 
 Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
