@@ -34,9 +34,11 @@ yarn build
 
 ### `stop`
 
-netstat -ano | findstr :1337
+It does close automatically sometimes, but in case it does not:
 
-taskkill /PID 7952 /F
+netstat -ano | findstr :1337 (or whatever port you are using)
+
+taskkill /PID <PID> /F
 
 ## ⚙️ Deployment
 
