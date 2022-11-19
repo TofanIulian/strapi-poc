@@ -69,3 +69,17 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+### Notes
+
+I was unable to start add new collections at first. the Content-Type Builder was saying that it needs the autoReload feature. After closing the project and restarting it all worked as expected.
+https://github.com/strapi/strapi/issues/6639
+https://github.com/strapi/strapi/issues/8729
+
+Collecition types: mode than one of in the website, e.g. reviews
+Single type: for unique piece of content, e.g. homepage
+Components: header => used in all the pages
+
+## ⚙️ Generating middlwares
+
+npx strapi generate
